@@ -1,0 +1,21 @@
+# Go binary files
+*.exe
+*.exe~
+*.out
+
+# Go workspace file
+go.work
+
+# Go modules
+/modules.lock/
+
+# audio output files
+*.wav
+*.mp3
+*.aac
+*.flac
+*.ogg
+
+# OS generated files
+.DS_Store
+Thumbs.db
