@@ -1,21 +1,12 @@
-# Go binary files
-*.exe
-*.exe~
-*.out
-
-# Go workspace file
+# Go binaries
+bin/
+# Test binary, build with `go test` instead of `go build`.
+testdata/
+# Dependency directories (may be empty)
+vendor/# Go workspace file
 go.work
-
-# Go modules
-/modules.lock/
-
-# audio output files
+# Audio files
 *.wav
 *.mp3
-*.aac
 *.flac
-*.ogg
-
-# OS generated files
-.DS_Store
-Thumbs.db
+*.aac
